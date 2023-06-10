@@ -18,11 +18,18 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "deploy": "gh-pages -b master -d build",
+  
+   "build": "react-scripts build",
+     "predeploy": "yarn run build",
+      "deploy": "gh-pages -b master -d build",  
+      "test": "react-scripts test",
+ 
+      "deploy": "gh-pages -b master -d build",
+ 
     "eject": "react-scripts eject"
+ 
   },
+
   "eslintConfig": {
     "extends": [
       "react-app",
