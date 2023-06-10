@@ -45,7 +45,7 @@ const Footer = () => {
         </div>
       </footer>
       <div className='legal'>
-        <span>© 2021 Kaveri. Designd By GorkCoder.</span>
+        <span>© Copyright reserved Kaveri-Recidence.</span>
       </div>
     </>
   )
